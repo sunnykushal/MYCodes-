@@ -1,0 +1,64 @@
+body{
+	background-image:url("images/img1.jpg");
+}
+.div1{
+	margin-top: 5%;
+	
+	height: 437px;
+	width: 250px;
+	
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+	background-color: #18151594;
+}
+.submit {
+    margin-left: 31px;
+    width: 129px;
+    color: #060606;
+    height: 31px;
+    background-color: #4794a178;
+    border-radius: 21px;
+    font-size: 20px;
+}
+.title{
+
+	text-align: center;
+	color: whitesmoke;
+	font-family: bold;
+
+}
+.user{
+	width: 200px;
+	height: 25px;
+	border: none;
+	border-bottom: 2px black solid;
+	margin-bottom: 45px;
+	margin-right: 15px;
+
+}
+.h{
+	text-align: center;
+	color: black;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 55px;
+	
+}
+.u{
+	font-family: 'Oswald', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+.linkspara{
+	margin-left: 20px;
+	color: black;
+}
+.links{
+	color: black;
+}
+
+.logo {
+    height: 300px;
+    margin-left: 102px;
+    margin-top:-544px;
+    float: right;
+}
