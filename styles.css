@@ -1,252 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Licorice&family=Montserrat:wght@100;400&family=Moo+Lah+Lah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@100;400&family=Moo+Lah+Lah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@200&family=Licorice&family=Montserrat:wght@100;400&family=Moo+Lah+Lah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@200&family=Licorice&family=Montserrat:wght@100;400&family=Moo+Lah+Lah&family=Yanone+Kaffeesatz:wght@600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.one {
-    background-image: url(imgm/head.jpg);
-    background-position: 45px -5px;
-    background-repeat: initial;
-    background-color: darkkhaki;
-
-}
-
-.one p {
-    padding: 57px 320px;
-    font-size: 68px;
-    font-family: 'Bakbak One', cursive;
-    font-family: 'Licorice', cursive;
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Moo Lah Lah', cursive; */
-    color: #25c9b2;
-    margin-left: -288px;
-}
-
-.two {
-    background-color: black;
-    padding-left: 30px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.two ul {
-    list-style-type: none;
-    color: aquamarine;
-    padding: 20px 65px;
-    margin-left: 352px;
-}
-
-.two ul li {
-    display: inline;
-    margin: 0px 9px;
-    border: none;
-    font-size: 19px;
-    font-family: 'Kanit', sans-serif;
-}
-
-.two ul li a {
-    color: black;
-    /* border: 2px #f7f2f2 solid; */
-    border-radius: 40px;
-    padding: 10px;
-    background-color: white;
-    text-decoration: none;
-}
-
-.two ul li a:hover {
-    background-color: rgb(255, 0, 0);
-    cursor: pointer;
-}
-
-.six {
-    display: flex;
-    justify-content: flex-end;
-    background-color: black;
-    color: chocolate;
-    ;
-    font-size: 50px;
-
-    font-family: 'Montserrat', sans-serif;
-
-    text-align: center;
-    padding: 65px;
-    background-image: url('imgm/puz.jpg');
-}
-
-.six img {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    margin-left: auto;
-    margin-top: 33px;
-    margin-right: 232px;
-}
-
-.six p {
-    display: flex;
-    background-color: #c7b9b9;
-    /* text-align: center; */
-    padding: 65px;
-    color: black;
-    background-position: 0px -162px;
+body {
+    background-image:url(img/hand.jpg);
+    background-position: 0px -213px;
     background-repeat: no-repeat;
-    width: 881px;
-    
+   }
 
-}
 
-.six .name{
-    background-color:darkgray;
-    text-align: end;
-
-}
-
-.six .name img{
-    width: 84px;
-    height: 84px;
-    margin: 10px 7px;
-}
-
-.name p{
-    background-color: blue;
-    color: cadetblue;
-
-}
-
-.container {
+.one {
+    background-color: black;
+    color: white;
+    list-style: none;
     display: flex;
-    background-color: red;
-    height: 397px;
+    padding: 10px 0;
+   
+   
 }
 
-#main {
-    width: 30%;
-    height: auto;
-    background-color: blueviolet;
-    animation: try 5s ease-in 1s 1 alternate forwards;
+.one li a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
 
 }
-
-@keyframes try {
-    from {
-        width: 5%;
-    }
-
-    to {
-        width: 100%;
-    }
+.one li a:hover{
+    color: rgb(187, 98, 98);
 }
 
-#main h1 {
-    justify-content: center;
-    padding: 29px;
-    font-family: 'Montserrat';
+h1{
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #403c3cf2;
+    font-family: 'Cinzel', serif;
+   
 }
 
-#main p {
-    padding: 75px;
-    font-family: system-ui;
-}
-
-
-#sidebar {
-    width: 70%;
-}
-
-#sidebar h1 {
-    justify-content: center;
-    padding: 29px 440px;
-    font-family: 'Montserrat';
-}
-
-#sidebar p {
-    padding: 62px;
-    font-family: system-ui;
-
-}
-
-.container1 {
+.flexc{
     display: flex;
     box-sizing: border-box;
 }
 
-#main1 {
-    background-color: yellow;
-    padding: 142px;
+.two{
+    background-color: #80808099;
+    height: 145px;
+    margin-left: 16px;
+    
 }
 
-#sidebar1 {
-    background-color: green;
+.three{
+    background-color:#000000c2;
+    height: 145px;
+    margin-right: 16px;
+    
+}
+
+.two p{
+    padding: 47px;
+}
+
+.three p{
+    padding: 47px;
+    color: white;
+}
+
+.flex1{
+display: flex;
+background-color: black;
+}
+
+.flex1 img {
+    height: 41px;
+    width: 210px;
+    margin-left:892px;
+    margin-top: 4px;
+}
+
+.four{
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+    
+
+
+.four p{
+    background-color: #75af56f5;
+    padding: 158px;
+    background-image: url('img/eduardo-soares-QsYXYSwV3NU-unsplash.jpg');
+    background-position: center top;
+}
+
+#form {
+    padding: 81px;
+    background-image: url(img/colorful_background_7-wallpaper-1920x1080.jpg);
+    /* background-repeat: round; */
+    background-position: 1321px 584px;
+    background-repeat: no-at;
 }
 
 
-#sidebar1 h2 {
+#form h2 {
     text-align: center;
-    margin: 35px;
+    margin-bottom: 44px;
+    font-family: 'Staatliches', cursive;
+}
+
+.four #form label{
+    margin-left: -60px;
+    font-family: 'Cinzel';
+}
+
+input[type=text]{
+    margin: 7px -64px;
+    width: 276px;
+    height: 34px;
+    border-radius: 10px;
 }
 
 
-#sidebar1 p {
-    padding: 35px;
-    margin-top: 33px;
-    font-family: system-ui;
+
+input[type=password]{
+    margin: 7px -64px;
+    width: 276px;
+    height: 34px;
+    border-radius: 10px;
 
 }
 
-
-
-#sidebar2 {
-    background-color: grey;
-    animation: try1 5s ease-in 1s 1 alternate forwards;
-
-}
-
-@keyframes try1 {
-    from {
-        width: 5%;
-    }
-
-    to {
-        width: 100%;
-    }
-}
-
-#sidebar2 h2 {
-    text-align: center;
-    margin: 35px;
-}
-
-#sidebar2 p {
-    padding: 35px;
-    margin-top: 33px;
-    font-family:system-ui;
-   
-}
-
-#sidebar3 {
-    background-color: pink;
-    margin-top: -35px;
-}
-
-#sidebar3 h2 {
-    text-align: center;
-    padding-top: 78px;
-}
-
-#sidebar3 p {
-    padding: 35px;
-    margin-top: 33px;
-    font-family:system-ui;
-}
-
-.last{
+.four #form button{
+    padding: 11px;
+    margin-left: 9px;
+    width: 119px;
+    font-family: monospace;
+    border-radius: 21px;
     background-color: black;
     color: white;
-    padding: 20px;
-    font-size: 20px;
+}
+
+.four #form button:hover{
+    background-color: green;
 }
